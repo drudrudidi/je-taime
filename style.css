@@ -1,0 +1,40 @@
+/* Define o estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sacramento", cursive;
+    background-color: #121E26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Contêiner central */
+.container {
+    margin: 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Estilo da foto */
+.photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do texto */
+.text {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #F5F5F5;
+}
